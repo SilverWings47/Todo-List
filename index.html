@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="main-title">Todo List</h1>
+    <main class="container">
+        <div class="task-input">
+            <input class="task-input-text" type="text" placeholder="New Task...">
+            <a href="#" class="add-task-btn">Add Task</a>
+        </div>
+        <div class="todo-list"></div>
+    </main>
+
+    <template>
+        <div class="task">
+            <span class="task-text"></span>
+            <div class="task-icons">
+                <span class="material-symbols-outlined delete-btn visible">delete</span>
+                <span class="material-symbols-outlined unchecked-btn visible">check_box_outline_blank</span>
+                <span class="material-symbols-outlined checked-btn">check_box</span>
+            </div>
+        </div>
+    </template>
+    <span class="copyright">&copy Sami Nasri</span>
+
+    <script src="script.js"></script>
+</body>
+</html>

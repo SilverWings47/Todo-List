@@ -19,14 +19,7 @@ body {
 }
 
 @mixin animation {
-    // animation: loading 400ms linear forwards;
-    // animation-name: loading;
-    // animation-duration: 400ms;
-    // animation-fill-mode: forwards;
-    // animation-timing-function: linear;
-
     @keyframes loading {
-
         to {
             width: 100%;
         }
